@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Server</title>
+</head>
+<header>
+    <div class="head-text-container">
+        <h1>Welcome to the http server runned with node.js!</h1>
+    </div>
+</header>
+<body>
+    <div class="container">
+        <div class="main-content-container">
+            <div class="request-container">
+                <!-- <div class="info-requst-container">
+                    <h2 class="request-text">Make a js request</h2>
+                    <input type="text">
+                    <button onclick="getScript()">click</button>
+                </div>
+                <div class="info-requst-container">
+                    <h2 class="request-text">Make a css request</h2>
+                    <input type="text">
+                    <button onclick="getStyles()">click</button>
+                </div> -->
+                <div class="info-requst-container">
+                    <h2 class="request-text">Make an api request</h2>
+                    <input type="text" id="inputApi">
+                    <button onclick="getApiResult()">click</button>
+                </div>
+            </div>
+            <div class="result-request-block">
+                <!-- <div class="js-result" id="script-result">request result </div>
+                <div class="css-result" id="css-result">request result </div> -->
+                <div class="api-result" id="api-result">request result </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/script.js"></script>
+</html>

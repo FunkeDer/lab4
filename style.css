@@ -1,0 +1,95 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.head-text-container{
+    text-align: center;
+    padding: 0 10px;
+}
+
+.main-content-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.request-container{
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.info-requst-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /* padding: 30px; */
+    width: 260px;
+}
+
+input{
+    border-radius: 5px;
+    min-width: 50px;
+    height: 30px;
+    border: solid black 1px;
+}
+
+button{
+    border: solid black 0.5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+    text-transform: uppercase;
+    padding: 4px 5px;
+}
+
+button:hover{
+    transition: 0.3s;
+    color: black;
+    background-color: white;
+}
+
+h2{
+    font-weight: 400;
+    min-width: 200px;
+    text-align: center;
+}
+
+.result-request-block{
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.result-request-block :nth-child(1){
+    width: 260px;
+    text-align: center;
+
+    padding: 50px 0 0 0 ;
+}
+
+.result-request-block :nth-child(2){
+    width: 260px;
+    text-align: center;
+
+    padding: 50px 0 0 0 ;
+}
+
+.result-request-block :nth-child(3){
+    width: 260px;
+    text-align: center;
+    padding: 50px 0 0 0 ;
+}
